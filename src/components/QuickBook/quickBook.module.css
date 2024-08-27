@@ -109,13 +109,14 @@
     margin-right: 9px;
 }
 
-/* .vehicleDropdown {
+.vehicleDropdown {
     background-color: #ffffff23;
     color: #ffffff;
     border: none;
     padding: 9px 16px;
     border-radius: 50px;
-} */
+    cursor: pointer;
+}
 
 /* .mobileMenu {
     display: none;
