@@ -1,4 +1,4 @@
-import styles from "./Subscribe.module.css";
+import styles from "./subscribe.module.css";
 
 export default function Subscribe() {
   return (
