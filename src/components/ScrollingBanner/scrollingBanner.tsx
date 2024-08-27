@@ -1,4 +1,4 @@
-import styles from "./ScrollingBanner.module.css";
+import styles from "./scrollingBanner.module.css";
 
 export default function ScrollingBanner() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import styles from "./FAQ.module.css"; 
+import styles from "./faq.module.css"; 
 
 interface FAQItem {
   question: string;
