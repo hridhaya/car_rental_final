@@ -1,0 +1,49 @@
+.FAQ {
+    padding: 88px;
+  }
+  
+  .FAQ h2 {
+    text-align: center;
+    padding: 4px;
+    font-size: 2rem; 
+  }
+  
+  .accordionContent {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(167, 167, 167);
+    padding: 20px 10px;
+    position: relative;
+  }
+  
+  .question {
+    position: relative;
+    font-weight: 400;
+    padding-right: 30px;
+  }
+  
+  .question::after {
+    content: "+";
+    font-size: 2rem;
+    font-weight:300;
+    position: absolute;
+    right: 10px;
+    
+  }
+  
+  .question.active::after { 
+    transform: rotate(45deg);
+  }
+  
+  .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    padding: 0 0 1rem;
+  }
+  
+  .answer.show {
+    max-height: 24px;
+    opacity: 0.8;
+  }
+  

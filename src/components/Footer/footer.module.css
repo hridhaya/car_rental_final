@@ -1,0 +1,160 @@
+
+
+.footerClass {
+    max-height: max-content;
+    width: 100%;
+    background-color: #000;
+    display: block;
+    color: #fff; /* Ensures all text inside footer is white by default */
+  }
+  
+  .footerContent {
+    width: 100%;
+    padding: 40px 0 0 80px;
+    display: flex; /* Updated to "flex" to better handle responsiveness */
+    padding-bottom: 4%;
+  }
+  
+  .footerLogo {
+    padding-right: 16vh;
+    width: 32vh;
+  }
+  
+  .footerLogo p {
+    margin-left: 2px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+  }
+  
+  .footerLink1 {
+    display: flex; /* Flex container for the links */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 24px; /* Space between columns */
+    padding-top: 8px;
+  }
+  
+  .footerColumn {
+    flex: 1; /* Each column takes equal space */
+    line-height: 32px;
+  }
+  
+  .footerColumn a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: max-content;
+  }
+  
+  .footerColumn a:hover {
+    text-decoration: underline;
+  }
+  
+  .followUs {
+    width: 42vh;
+    padding-left: 16vh;
+  }
+  
+  .followUs p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 8px;
+    margin-bottom: 10px; /* Better spacing */
+  }
+  
+  .socialIcons a {
+    display: inline-block;
+    padding: 0 5px; /* Add some space between icons */
+  }
+  
+  .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0;
+  }
+  
+  .copyright {
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+    font-size: 12px;
+  }
+  
+  .copyright p:hover {
+    text-decoration: underline;
+  }
+  /* --responsive-- */
+  @media (max-width: 1024px) {
+    .footerContent {
+      padding: 40px 20px;
+    }
+  
+    .footerLogo {
+      padding-right: 8vh;
+      width: 16vh;
+    }
+  
+    .followUs {
+      width: 32vh;
+      padding-left: 8vh;
+    }
+  
+    .socialIcons a {
+      padding: 0 3px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footerContent {
+      flex-direction: column;
+      padding: 20px 0;
+    }
+  
+    .footerLogo {
+      padding-right: 0;
+      width: auto;
+    }
+  
+    .footerLink1 {
+      justify-content: center;
+    }
+  
+    .followUs {
+      width: 100%;
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .socialIcons a {
+      padding: 0 2px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footerContent {
+      padding: 20px 10px;
+    }
+  
+    .footerLogo p {
+      font-size: 10px;
+    }
+  
+    .footerColumn {
+      text-align: center;
+      line-height: 24px;
+    }
+  
+    .footerColumn a {
+      font-size: 14px;
+    }
+  
+    .followUs p {
+      font-size: 10px;
+    }
+  
+    .socialIcons a {
+      padding: 0 1px;
+    }
+  }
