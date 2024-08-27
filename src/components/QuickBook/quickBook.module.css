@@ -43,6 +43,7 @@
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 24px;
+    cursor: pointer;
 }
 
 .locationDropdown,
@@ -56,16 +57,14 @@
 }
 
 .searchButton {
+    
     border-radius: 24px;
     padding: 6px 16px;
     border: none;
     margin-right: 16px;
     margin-bottom: 4px;
     background-color: white;
-}
-
-.searchButton:hover {
-    background-color: #f8f8f8;
+    cursor: pointer;
 }
 
 .verticalDivider {
@@ -84,10 +83,6 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-}
-
-.quickBookButton:hover {
-    background-color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 
