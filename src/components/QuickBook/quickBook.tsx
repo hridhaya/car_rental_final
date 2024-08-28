@@ -51,42 +51,6 @@ function QuickBook() {
                     </div>
                 </div>
             </div>
-
-            {/* <div className={styles.mobileMenu}> 
-                <div className={styles.menuButtons}>
-                    <button className={styles.bookCarButton} onClick={toggleMenuVisibility}>Book a car</button>
-                    <button className={styles.quickBookMobileButton}>Quick book</button>
-                </div>
-
-                <div className={`${styles.mobileTabs} ${isMenuVisible ? styles.activeTabs : ''}`}>
-                    <ul className={styles.mobileTabsList}>
-                        <li className={styles.mobileTabItem}><button className={styles.pickUpButton} onClick={() => setIsDifferentDropOff(false)}>Same as Pick-Up</button></li>
-                        <li className={styles.mobileTabItem}><button className={styles.dropOffButton} onClick={() => setIsDifferentDropOff(true)}>Different Drop-Off</button></li>
-                        <li>
-                            <select name="vehicle" defaultValue="default" className={styles.vehicleDropdownMobile}>
-                                <option value="default" disabled hidden>Vehicle Type</option>
-                            </select>
-                        </li>
-                    </ul>
-                    <ul className={styles.mobileInputList}>
-                        <li className={styles.mobileInputItem}>
-                            <select name="pickup" defaultValue="default" className={styles.pickupDropdownMobile}>
-                                <option value="default" disabled hidden>Pick up location</option>
-                                <option value="dubai">Dubai</option>
-                            </select>
-                        </li>
-                        <li className={styles.mobileInputItem}>
-                            <select name="dropoff" defaultValue="default" className={`${styles.dropOffLocationInactive} ${isDifferentDropOff ? styles.dropOffLocationActive : ''}`}>
-                                <option value="default" disabled hidden>Drop off location</option>
-                                <option value="fujairah">Fujairah</option>
-                            </select>
-                        </li>
-                        <li className={styles.mobileInputItem}><input className={styles.pickupDateMobile} type="datetime-local" placeholder="Pick-Up Date and Time" /></li>
-                        <li className={styles.mobileInputItem}><input className={styles.dropOffDateMobile} type="datetime-local" placeholder="Drop off Date and Time" /></li>
-                        <li><button className={styles.searchMobileButton}>Search</button></li>
-                    </ul>
-                </div>
-            </div>*/    }
         </div>
     )
 }
